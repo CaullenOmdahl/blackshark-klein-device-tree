@@ -19,11 +19,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
 
-# Boot Control HAL Static Libraries
+# Boot Control HAL Shared Libraries (updated to remove deprecated static libraries)
 PRODUCT_PACKAGES += \
-    bootctrl.kona
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.kona \
     libgptutils \
     libz \
@@ -39,7 +36,7 @@ PRODUCT_PACKAGES += \
 
 # Set product properties for build type and version
 PRODUCT_DEVICE := klein
-PRODUCT_NAME := omni_klein
+PRODUCT_NAME := twrp_klein
 PRODUCT_BRAND := blackshark
 PRODUCT_MODEL := SHARK KLE-H0
 PRODUCT_MANUFACTURER := blackshark
