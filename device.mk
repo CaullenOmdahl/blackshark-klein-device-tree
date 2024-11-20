@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.kona
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+PRODUCT_SHARED_LIBRARIES += \
     bootctrl.kona \
     libgptutils \
     libz \
