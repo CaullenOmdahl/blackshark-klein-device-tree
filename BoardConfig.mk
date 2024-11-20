@@ -113,3 +113,17 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+
+# Enable dynamic partitions
+BOARD_USES_DYNAMIC_PARTITIONS := true
+TARGET_DYNAMIC_PARTITIONS := system vendor product odm system_ext
+
+# Enable File-Based Encryption (FBE)
+BOARD_USE_FBE := true
+
+# Recovery specific configurations
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
+TW_USE_TOOLBOX := true
+TW_INCLUDE_REPACKTOOLS := true
+TW_EXTRA_LANGUAGES := true
+TW_SCREEN_BLANK_ON_BOOT := true

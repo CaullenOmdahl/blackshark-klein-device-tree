@@ -19,7 +19,25 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
-    bootctrl.kona
+    bootctrl.kona \
+    bootctrl.kona.recovery \
+    vold \
+    vdc \
+    libcryptfs_hw \
+    libkeymaster_portable \
+    libkeystore_binder \
+    libsoftkeymasterdevice \
+    libsoftkeymaster \
+    libkeymaster_messages \
+    gatekeeperd \
+    lpmake \
+    lpadd \
+    lpdump \
+    lpmgr \
+    liblp \
+    apexd \
+    apexd_boot \
+    apexservice
 
 PRODUCT_SHARED_LIBRARIES += \
     bootctrl.kona \
