@@ -5,5 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Set up lunch options for building OrangeFox
-export TARGET_PRODUCT=omni_klein
+add_lunch_combo omni_klein-user
+add_lunch_combo omni_klein-userdebug
+add_lunch_combo omni_klein-eng

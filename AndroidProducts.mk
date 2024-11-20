@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_klein.mk
+    $(LOCAL_DIR)/omni_klein.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_klein-user \
-    twrp_klein-userdebug \
-    twrp_klein-eng
+    omni_klein-user \
+    omni_klein-userdebug \
+    omni_klein-eng
