@@ -6,4 +6,4 @@
 #
 
 # Set up lunch options for building OrangeFox
-lunch twrp_klein-eng
+export TARGET_PRODUCT=omni_klein
