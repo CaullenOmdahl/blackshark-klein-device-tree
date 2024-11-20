@@ -3,12 +3,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
-COMMON_LUNCH_CHOICES := \
-    twrp_klein-user \
-    twrp_klein-userdebug \
-    twrp_klein-eng
-
 # Set the target architecture
 export TARGET_ARCH=arm64
 
