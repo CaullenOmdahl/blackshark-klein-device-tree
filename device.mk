@@ -30,8 +30,14 @@ PRODUCT_PACKAGES += \
     libsoftkeymaster \
     libkeymaster_messages \
     gatekeeperd \
-    lpmake \
+    libgptutils \
+    libz \
+    libcutils
+
+# Move these to PRODUCT_HOST_PACKAGES
+PRODUCT_HOST_PACKAGES += \
     lpadd \
+    lpmake \
     lpdump \
     lpmgr \
     liblp \
@@ -40,10 +46,7 @@ PRODUCT_PACKAGES += \
     apexservice
 
 PRODUCT_SHARED_LIBRARIES += \
-    bootctrl.kona \
-    libgptutils \
-    libz \
-    libcutils
+    bootctrl.kona
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
