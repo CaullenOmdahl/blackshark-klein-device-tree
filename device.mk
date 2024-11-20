@@ -72,3 +72,7 @@ PRODUCT_PACKAGES += \
     apexd \
     apexd_boot \
     apexservice
+
+TARGET_RECOVERY_DEVICE_MODULES += \
+    libkeymaster4 \
+    libpuresoftkeymasterdevice
