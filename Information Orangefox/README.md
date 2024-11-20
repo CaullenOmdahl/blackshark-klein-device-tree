@@ -60,15 +60,15 @@ This document provides a comprehensive overview of the device tree for the Black
 
 2. **Choose a build target**:
    ```bash
-   lunch omni_klein-eng
+   lunch twrp_klein-eng
    ```
    or
    ```bash
-   lunch omni_klein-user
+   lunch twrp_klein-user
    ```
    or
    ```bash
-   lunch omni_klein-userdebug
+   lunch twrp_klein-userdebug
    ```
 
 ### Required Packages
@@ -148,7 +148,7 @@ PRODUCT_PACKAGES += \
 ### Product Information
 ```makefile
 PRODUCT_DEVICE := klein
-PRODUCT_NAME := omni_klein
+PRODUCT_NAME := twrp_klein
 PRODUCT_BRAND := blackshark
 PRODUCT_MODEL := SHARK KLE-H0
 PRODUCT_MANUFACTURER := blackshark
