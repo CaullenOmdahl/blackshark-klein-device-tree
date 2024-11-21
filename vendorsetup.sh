@@ -9,11 +9,6 @@ export TARGET_ARCH=arm64
 # Set A/B device flag
 export FOX_AB_DEVICE=1
 
-# Enable MIUI-specific flags
-export OF_DISABLE_MIUI_OTA_BY_DEFAULT="1"
-export OF_NO_MIUI_PATCH_WARNING="1"
-export OF_DONT_PATCH_ENCRYPTED_DEVICE="1"
-
 # Enable TWRP Recovery Image Builder
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export ALLOW_MISSING_DEPENDENCIES=true
@@ -37,3 +32,6 @@ export OF_IGNORE_LOGICAL_MOUNT_ERRORS="1"
 
 # Maintainer information
 export OF_MAINTAINER="Your Name"
+
+# Ensure FBE is enabled
+export BOARD_USE_FBE="true"
