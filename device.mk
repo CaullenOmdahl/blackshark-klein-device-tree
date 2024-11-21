@@ -34,7 +34,8 @@ PRODUCT_PACKAGES += \
     gatekeeperd \
     libgptutils \
     libz \
-    libcutils
+    libcutils \
+    logcat
 
 # Host Packages
 PRODUCT_HOST_PACKAGES += \
